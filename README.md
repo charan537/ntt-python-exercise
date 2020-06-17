@@ -2,6 +2,7 @@
 
 ## 01. Find P(X < Y) for given Probability Density Function
 * Solved the given problem in 01.docx
+* P(X < Y) = 1/2
 
 ## 02. Finding pairs with k diffference
 * Written solution to determine distinct pairs with k difference in 02.py
