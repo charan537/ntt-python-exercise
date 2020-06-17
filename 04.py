@@ -26,7 +26,8 @@ class redis:
         if not self.EXISTS(args[0]):
             return None
         valList=self.GET(args[0])
-        val=valList.pop()
+        if len(valList) > 0:
+            val=valList.pop()
         return val
     
     def LPUSH(self,*args):
@@ -54,7 +55,8 @@ class redis:
         if not self.EXISTS(args[0]):
             return None
         valList=self.GET(args[0])
-        val=valList.pop(0)
+        if len(valList) > 0:
+            val=valList.pop(0)
         return val
     
     def SET(self,*args):
