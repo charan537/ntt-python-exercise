@@ -1,0 +1,1 @@
+# ntt-python-exercise
